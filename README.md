@@ -17,6 +17,7 @@ To run the application, ensure that the startup project is set to SEOProject, th
 
 # Improvements
 I would have liked to add unit testing but due to time constraints, my busy work schedule, and my daily commute to work I was unable to implement this. In the future, xUnit would have been a good aid.
+
 The addition of trends to show the rankings on a daily/weekly basis would also be a good improvement on this project.
 
 Authentication and authorization
