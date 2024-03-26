@@ -1,0 +1,111 @@
+﻿body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #ff0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+}
+
+input#url {
+    margin-left: 50px;
+}
+
+input#keyword {
+    margin-left: 10px;
+}
+
+.radio-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px
+}
+
+    .radio-container label {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+.input-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.button-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff0;
+    color: #000;
+    cursor: pointer;
+}
+
+    button:disabled {
+        background-color: #666;
+        color: #999;
+        cursor: not-allowed;
+    }
+
+    button:hover {
+        background-color: #ffe066;
+    }
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+}
